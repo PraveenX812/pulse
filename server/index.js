@@ -30,7 +30,7 @@ app.use('/api/videos', videoRoutes);
 app.use('/uploads', express.static('uploads'));
 
 app.get('/', (req, res) => {
-    res.send('Pulse Video Platform API is Running 🚀');
+    res.send('working');
 });
 
 io.on('connection', (socket) => {
